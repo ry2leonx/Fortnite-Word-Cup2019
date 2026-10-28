@@ -1,0 +1,439 @@
+<!--
+  ======================================================================
+  INSTITUCIÓN: CBTis 166 Pablo Torres Burgos
+  ----------------------------------------------------------------------
+  * Estudiante: Leonel Montes de Oca Saldaña
+  * Grupo: 3B PRO VESP  
+  * Actividad: Portal Institucional (Con barra superior, collage y formulario)
+  ====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBTis 166 - Portal Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR DE CONTACTO -->
+    <div class="top-bar" id="inicio">
+        <div class="top-bar-container">
+            <div class="top-contacts">
+                <span class="top-item">📞 734 000 0000</span>
+                <span class="top-item whatsapp">💬 Escríbenos por <strong>WhatsApp</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#inicio">
+                    <img src="img/WordCup.jpeg" alt="CBTis 166" class="brand-logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#oferta">Oferta Educativa</a>
+                <a href="login.html" class="btn-nav-login">Alumnos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON COLLAGE DE IMÁGENES -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos, Botón y Beneficios -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡INSCRIPCIONES ABIERTAS!</span>
+                <h1>Online Opens</h1>
+                <p>La Fortnite World Cup de 2019 revolucionó los esports con sus Clasificatorias Abiertas en Línea (Online Opens). Este formato permitió que cualquier jugador del mundo compitiera desde su casa para clasificar a la Gran Final en Nueva York, sin necesidad de pertenecer a un club profesional..</p>
+                
+                <div class="hero-cta-box">
+                    <a href="login.html" class="btn-orange">Solicita informes →</a>
+                    <div class="hero-benefits">
+                        <span>✓ Llegar a la Liga de Campeones en el modo Arena</span>
+                        <span>✓ Semifinales Online donde tenias que quedar to 3000 de la region para avanzar a la final</span>
+                        <span>✓ Finales Online donde tenias que quedar entre los 10 mejores de la tabla para avanzar al presencial en Nueva York y un premio de 50,000 dolares</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Collage de Imágenes -->
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <img src="img/WordCup.jpeg" alt="Estudiante CBTis">
+                    </div>
+                    <div class="collage-sub">
+                        <img src="img/formato.jpg" alt="Laboratorista">
+                        <img src="img/tabla.jpg" alt="Programación">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE OFERTA EDUCATIVA CON IMÁGENES ALUSIVAS -->
+    <section id="oferta" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Nuestras 4 Carreras Técnicas</h2>
+                <p>Elige tu especialidad y prepárate profesionalmente con nosotros</p>
+            </div>
+
+            <div class="careers-grid">
+                
+                <!-- Carrera 1: Fortnite -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/jelty3.jpeg" alt="Recursos Humanos">
+                    </div>
+                    <div class="career-content">
+                        <h3>Fortnite</h3>
+                        <p>Conviertete en jugador profesional de Fortnite con las enseñanzas del jugador profesional Jelty.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 2: Brawl Stars -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/ikaoos.jpeg" alt="Programación">
+                    </div>
+                    <div class="career-content">
+                        <h3>Brawl Stars</h3>
+                        <p>Conviertete en jugador profesional de Brawl Stars con las enseñanzas del jugador profesional Ikaoos.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 3: Salud -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/Salud.jpg" alt="Ciberseguridad">
+                    </div>
+                    <div class="career-content">
+                        <h3>Salud</h3>
+                        <p>La salud es el estado de completo bienestar físico, mental y social, y no solo la ausencia de enfermedades.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 4: Automatización y Mecatrónica -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="img/AutomatizaciónyMecatrónica.jpg" alt="Laboratorista Clínico">
+                    </div>
+                    <div class="career-content">
+                        <h3>Automatización y Mecatrónica</h3>
+                        <p>La automatización y mecatrónica es la fusión de mecánica, electrónica, software y sistemas de control para crear maquinaria inteligente que funciona de forma autónoma.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE DOCENTES CON RECORRIDO INTERACTIVO (JS) -->
+    <section class="teachers-section">
+        <div class="teachers-container">
+            
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag">Fortnite World Cup 2019</span>
+                    <h2>Nuestra Plantilla de Jugadores</h2>
+                    <p>Los Jugadores de nuestro plantel son especialistas activos en su ramo. Utiliza los botones para recorrer el catálogo completo de nuestra copa del mundo:</p>
+                </div>
+                <!-- Botones funcionales con IDs -->
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn">‹</button>
+                    <button id="btn-next" class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <!-- Contenedor de las tarjetas de docentes (controlado por JS) -->
+            <div class="teachers-grid" id="teachers-track">
+                
+                <!-- Grupo 1 (Primeros 4 profesores) -->
+                <div class="teacher-card">
+                    <img src="img/gaona.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Ing. Eduardo Gaona</h3>
+                        <p>Especialista en Desarrollo Web y Sistemas en el CBTis 166. Turno Vespertino.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/jelty.jpeg" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Jesús Navarez Espinoza</h3>
+                        <p>Jugador Profesional de Fortnite.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/jelty2.jpeg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Jelty </h3>
+                        <p>Ganador de los Premios Esland por ser el Mejor Jugador de Esports del Año.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/Bugha.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Bugha</h3>
+                        <p>Kyle Giersdorf, mejor conocido como Bugha, es un jugador profesional de Esports y streamer estadounidense que se convirtió en una leyenda de los videojuegos al ganar el Fortnite World Cup Solo Championship en 2019.</p>
+                    </div>
+                </div>
+
+                <!-- Grupo 2 (Otros 4 profesores / Ejemplos adicionales para el recorrido) -->
+                <div class="teacher-card">
+                    <img src="img/Peterbot.jpg"alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Peterbot</h3>
+                        <p>Peter Kata, más conocido en el mundo de los videojuegos como Peterbot, es un jugador profesional de Fortnite húngaro-estadounidense y creador de contenido que actualmente compite para la organización Team Falcons. Nacido el 20 de junio de 2007, es ampliamente considerado por la comunidad y los analistas como uno de los mejores jugadores de Fortnite del mundo debido a sus mecánicas excepcionales, puntería milimétrica y agresivo estilo de juego.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/King.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>King</h3>
+                        <p>El jugador argentino Thiago "K1nG" Lapp hizo historia en la Fortnite World Cup 2019 al obtener el 5.º puesto en la modalidad en solitario (Solo) con tan solo 13 años de edad, llevándose un premio de $900,000 dólares. El torneo, celebrado en el Arthur Ashe Stadium de Nueva York, catapultó al joven a la fama internacional gracias a su estilo de juego sumamente agresivo y vistoso.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/Mongraal.jpg" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Mongraal</h3>
+                        <p>Kyle "Mongraal" Jackson (nacido el 13 de agosto de 2004) es un reconocido jugador profesional de esports y creador de contenido británico, considerado históricamente como uno de los pioneros y mecánicos más influyentes en la escena competitiva global de Fortnite.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/sangaona.jpeg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>San Gaona</h3>
+                        <p>Patrono de los que codifican, resuelven y nunca se rinden ante el código.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON FORMULARIO INTEGRADO -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos y Beneficios (Estilo UMOV) -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡INSCRIPCIONES ABIERTAS!</span>
+                <h1 class="hero-title-custom">¿Tienes dudas?</h1>
+                <p class="hero-desc-custom">
+                    Déjanos tus datos y te contactaremos para ver si estas clasificado a la Fortnite Word Cup 2019.
+                </p>
+                
+                <div class="hero-subtitle-custom">
+                    Conoce todo sobre la Fortnite Word Cup 2019:
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>✓ Clasificatoria</span>
+                    <span>✓ Premios de 50,000 dolares hasta 3,000,000 millones de dolares</span>
+                    <span>✓ Clasificar entre los mejores</span>
+                    <span>✓ Trofeo sl mejor jugador del mundo</span>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Tarjeta Flotante con Formulario (10 campos/etiquetas) -->
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+                    
+                    <h3 class="form-card-title">
+                        Solicita informes
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+                        
+                        <!-- 1. Campo de Texto: Nombre -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre" class="form-control-input">
+                        </div>
+
+                        <!-- 2. Campo de Texto: Apellido -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_apellido" name="apellido" required placeholder="Apellido" class="form-control-input">
+                        </div>
+
+                        <!-- 3. Campo de Correo Electrónico -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="email" id="info_email" name="email" required placeholder="Correo electrónico" class="form-control-input">
+                        </div>
+
+                        <!-- 4. Campo de Teléfono -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="tel" id="info_telefono" name="telefono" required placeholder="Teléfono o WhatsApp" class="form-control-input">
+                        </div>
+
+                        <!-- 5. Menú Desplegable (Select): Nivel de Estudios -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="nivel" required class="form-control-select">
+                                <option value="">Elige el nivel que deseas estudiar</option>
+                                <option value="media">Educación Mixta</option>
+                            </select><div class="input-group">
+    <label for="carrera-academica">Selecciona tu carrera técnica:</label>
+    
+    <!-- Etiqueta select obligatoria para que funcionen los grupos -->
+    <select id="carrera-academica" name="carrera" required>
+        <option value="">Elige una opción...</option>
+        
+        <optgroup label="Carreras de Tecnología">
+            <option value="programacion">Programación</option>
+            <option value="ciberseguridad">Ciberseguridad</option>
+        </optgroup>
+        
+        <optgroup label="Carreras Administrativas y de Salud">
+            <option value="recursos_humanos">Fortnite</option>
+            <option value="laboratorista">Brawl Stars</option>
+        </optgroup>
+        
+    </select><optgroup label="Carreras de Tecnología">
+    <option value="programacion">Programación</option>
+    <option value="ciberseguridad">Ciberseguridad</option>
+</optgroup>
+<optgroup label="Carreras Administrativas y de Salud">
+    <option value="recursos_humanos">Administración de Recursos Humanos</option>
+    <option value="laboratorista">Laboratorista Clínico</option>
+</optgroup>
+</div>
+                        </div>
+
+                        <!-- 6. Menú Desplegable (Select): Carrera Técnica -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_carrera" name="carrera" required class="form-control-select">
+                                <option value="">Elige tu carrera técnica de interés</option>
+                                <option value="recursos">Fortnite</option>
+                                <option value="programacion">Brawl Stars</option>
+                                <option value="ciberseguridad">Ciberseguridad</option>
+                                <option value="laboratorista">Laboratorista Clínico</option>
+                            </select>
+                        </div>
+
+                        <!-- 7. Campo de Fecha (Date): Fecha estimada de ingreso -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha estimada de ingreso:</label>
+                            <input type="date" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+
+                        <!-- 8. Área de Texto (Textarea): Dudas adicionales -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Escribe tus dudas o comentarios..." class="form-control-textarea"></textarea>
+                        </div>
+
+                      <!-- 9. Casilla de Verificación (Checkbox): Términos y privacidad -->
+                        <div class="cbtis-input-group form-group-checkbox">
+                            <input type="checkbox" id="info_terminos" name="terminos" required class="form-checkbox-input">
+                            <label for="info_terminos" class="form-checkbox-label">
+                                Acepto recibir información y el aviso de privacidad del CBTis 166.
+                            </label>
+                        </div>
+
+                        <!-- 10. Botón de Envío (Submit Button) -->
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            Solicitar informes
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONVENIOS DOBLE LÍNEA -->
+    <section class="convenios-section">
+        <div class="convenios-container">
+            
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">¿Podras demostrar tu nivel en Nueva York?</span>
+                <h2>Nuestros Patrocinadores</h2>
+                <p>Grandes empresas e instituciones forman a sus colaboradores en la Word Cup y contratan a nuestra comunidad egresada.</p>
+            </div>
+
+            <!-- LÍNEA 1: Se desplaza hacia la IZQUIERDA -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track marquee-track-top">
+                    <div class="convenio-card">🏢 PEMEX</div>
+                    <div class="convenio-card">🚗 Grupo Carso</div>
+                    <div class="convenio-card">🏦 Citibanamex</div>
+                    <div class="convenio-card">📞 TELMEX</div>
+                    <div class="convenio-card">🏛️ Secretaría de Hacienda</div>
+                    <div class="convenio-card">📦 Mercado Libre</div>
+                    <div class="convenio-card">🌴 Grupo Xcaret</div>
+                    <div class="convenio-card">🌐 CISCO Networking</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">🏢 PEMEX</div>
+                    <div class="convenio-card">🚗 Grupo Carso</div>
+                    <div class="convenio-card">🏦 Citibanamex</div>
+                    <div class="convenio-card">📞 TELMEX</div>
+                    <div class="convenio-card">🏛️ Secretaría de Hacienda</div>
+                    <div class="convenio-card">📦 Mercado Libre</div>
+                    <div class="convenio-card">🌴 Grupo Xcaret</div>
+                    <div class="convenio-card">🌐 CISCO Networking</div>
+                </div>
+            </div>
+
+            <!-- LÍNEA 2: Se desplaza hacia la DERECHA -->
+            <div class="marquee-wrapper marquee-wrapper-spacing">
+                <div class="marquee-track marquee-track-bottom">
+                    <div class="convenio-card">📰 Grupo Milenio</div>
+                    <div class="convenio-card">💊 San Pablo Farmacia</div>
+                    <div class="convenio-card">🏪 OXXO</div>
+                    <div class="convenio-card">⚡ Grupo Salinas</div>
+                    <div class="convenio-card">💻 Microsoft Partner</div>
+                    <div class="convenio-card">🎓 UNAM Vinculación</div>
+                    <div class="convenio-card">🏥 Hospital General</div>
+                    <div class="convenio-card">⚙️ Bosch México</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">📰 Grupo Milenio</div>
+                    <div class="convenio-card">💊 San Pablo Farmacia</div>
+                    <div class="convenio-card">🏪 OXXO</div>
+                    <div class="convenio-card">⚡ Grupo Salinas</div>
+                    <div class="convenio-card">💻 Microsoft Partner</div>
+                    <div class="convenio-card">🎓 UNAM Vinculación</div>
+                    <div class="convenio-card">🏥 Hospital General</div>
+                    <div class="convenio-card">⚙️ Bosch México</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER CON REDES SOCIALES) -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <p>CBTis 166 Pablo Torres Burgos &copy; 2026</p>
+                <p class="footer-author">Desarrollado por: Leonel Montes de Oca Saldaña (3B PRO VESP)</p>
+            </div>
+
+            <!-- Enlaces de Redes Sociales -->
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">f</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">ig</a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon" title="WhatsApp">💬</a>
+                <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube"> ▶</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
